@@ -1,0 +1,11 @@
+.vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	float:left;
+}
+
+	body {
+	background-image:;
+	text-align: center;
+	margin: auto;
+}
