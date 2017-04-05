@@ -1,3 +1,7 @@
+
+
+
+
 body {
 	background-image:;
 	text-align: center;
@@ -8,7 +12,7 @@ body {
 nav {
 	font-family: Oswald, "PT Sans", "Droid Sans";
 	font-size: 1em;
-	letter-spacing: 1.79em;
+	letter-spacing: 1.3em;
 	display: block;
 	padding-top: 1em;
 	padding-left: 1.8em;
@@ -86,6 +90,12 @@ nav {
 	letter-spacing: .5em;
 }
 
+.table {
+	padding-left: -3em;
+}
+.contact img {
+	display: none;
+}
 img {
 	padding-top: 2em;
 }
@@ -113,10 +123,6 @@ img {
 	padding-top: 2em;
 }
  
-
-
-
-
 
 
 

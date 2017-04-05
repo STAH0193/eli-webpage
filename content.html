@@ -2,24 +2,21 @@
 
 <html>		
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
 
 
-
-
-
-
-
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+    		<link rel="stylesheet" type="text/css" href="stylesheet.css". media="screen">
+			<link rel="stylesheet" type="text/css" href="/dist/css/unslider.css">
 			<title>
 			CONTENT | ELIZABETH STAHLMANN
 			</title>
 
+</head>
 
-	<body>
+<body>
+
+
 		
 			<header style="position: relative; top: -1.5em;">
 		<h1>
@@ -30,51 +27,40 @@
 	<nav style="position: relative; padding-bottom: 1em; top: -1.5em;">
 
 			<b>
-
 			<a class="two" href="content.html">CONTENT |</a>
 			<a class="two" href="contact.html">CONTACT |</a>
-		
-			<a class="two" href="resume.html">RESUME</a>	</b>
+			<a class="two" href="resume.html">RESUME</a>
+			</b>
 		
 	</nav>
+	
+</header>
 
 
-<div class="w3-content w3-display-container">
-
-  <img class="mySlides" src="images/woop.jpg" style="width:auto%" max height="50%">
-  <img class="mySlides" src="images/el3.jpg" style="width:auto%" max height="50%">
-  <img class="mySlides" src="images/unnamed-1.jpg" style="width:auto%" max height="50%">
-
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+<div class="my-slider">
+	<ul>
+		<li><img src="images/el1.jpg"></li>
+		<li><img src="images/el2.jpg"></li>
+		<li><img src="images/el3.jpg"></li>
+	</ul>
 </div>
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
+                
+   
+   <footer> Copyright ©2017, Elizabeth Stahlmann. All rights reserved.</footer>             
+         
+	
 
 
-</header>
-		
+	<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="/js/unslider.js"></script>
 
-			<footer> Copyright ©2017, Elizabeth Stahlmann. All rights reserved.</footer>
+
+	<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider();
+		});
+	</script>     
 
 	</body>
 
