@@ -82,6 +82,13 @@ input[type=button], input[type=submit], input[type=reset] {
 	padding-top: 1em;
 }
 
+li {
+font-family: Oswald, "PT Sans", "Droid Sans";
+	width: auto;
+	font-size: 6px;
+}
+
+
 
 /* iphone 6s  horizantal*/
 @media only screen and (max-width: 414px) {
@@ -123,11 +130,6 @@ img {
 	padding-top: 2em;
 }
  
-
-
-
-
-
 
 
 
