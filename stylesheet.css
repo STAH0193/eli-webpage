@@ -87,6 +87,18 @@ font-family: Oswald, "PT Sans", "Droid Sans";
 }
 
 
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
 
 /* iphone 6s  horizantal*/
 @media only screen and (max-width: 414px) {
