@@ -67,8 +67,6 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
 }
 
-
-
     h1:hover {background-image: url(images/3.jpg);}
     h1:active {background-image: url(images/2.jpg);}
 
