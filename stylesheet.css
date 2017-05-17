@@ -76,6 +76,8 @@ input[type=button], input[type=submit], input[type=reset] {
     a.two:hover   {color:grey; text-decoration:none;}
     a.two:active  {color:black; text-decoration:none;}
 
+
+
 .pad {
 	position: relative;
 	padding-top: 1em;
