@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     
     		<link rel="stylesheet" type="text/css" href="stylesheet.css". media="screen">
-    		<link rel="stylesheet" type="text/css" href="css/unslider.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+			<script src="galleria/galleria-1.5.7.min.js"></script>
 			<title>
 			CONTENT | ELIZABETH STAHLMANN
 			</title>
@@ -38,29 +39,20 @@
 </header>
 
 
-<div class="banner">
-	<ul>
+<div class="galleria">
 
+	<img src="images/tub.JPG" data-title="Phaedra's Love, with Niall Powderly, by Sara Kane, dir. Jesse Rasmussen, photography by Alessandro Rumie">
 
+	<img src="images/cig1.jpg" data-title="Amy and the Orphans, by Lindsey Ferrentino, dir. Leora Morris, photography by T. Charles Erickson">
 
+	<img src="images/el123.jpg" data-title="Krymov Workshop of Chekhov's Seagull, photo by Elizaveta Keshisheva, photography by Elizaveta Keshisheva">
 
-	<li><img src="images/tub.JPG">
-		<p style="	text-align: center;">Phaedra's Love, with Niall Powderly, by Sara Kane, dir. Jesse Rasmussen, photography by Alessandro Rumie</p></li>
+	<img src="images/unt.jpg" data-title="Knives and Hens, by David Harrower, dir Jesse Rasmussen, photography by Elizabeth Green">
 
-		<li><img src="images/cig1.jpg">
-		<p style="	text-align: center;">Amy and the Orphans, by Lindsey Ferrentino, dir. Leora Morris, photography by T. Charles Erickson</p></li>
+	<img src="images/bo3.jpg" data-title="Phaedra's Love by Sara Kane, dir. Jesse Rasmussen, photography by Alessandro Rumie">
 
-			<li><img src="images/el123.jpg">
-		<p style="	text-align: center;">Krymov Workshop of Chekhov's Seagull, photo by Elizaveta Keshisheva, photography by Elizaveta Keshisheva</p></li>
+	<img src="images/woop3.jpg" data-title="Merchant of Venice, dir. Kevin Hourigan, photography by Christopher Thompson">
 
-	<li><img src="images/unt.jpg">
-		<p style="	text-align: center;">Knives and Hens, by David Harrower, dir Jesse Rasmussen, photography by Elizabeth Green </p></li>
-
-	<li><img src="images/bo3.jpg">
-		<p style="	text-align: center;">Phaedra's Love by Sara Kane, dir. Jesse Rasmussen, photography by Alessandro Rumie</p></li>
-
-		<li><img src="images/woop3.jpg">
-		<p style="	text-align: center;">Merchant of Venice, dir. Kevin Hourigan, photography by Christopher Thompson</p></li>
 
 	</ul>
 	
@@ -70,20 +62,13 @@
    
    <footer> Copyright ©2017, Elizabeth Stahlmann. All rights reserved.</footer>             
          
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-	<script src="js/unslider-min.js"></script> 
-
-	<script>
-         jQuery(document).ready(function($) {
-    			$('.banner').unslider({
-
-    arrows: true
-    });
-    		});
-       </script>
-
+        <script>
+	(function() { 
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+        }());
+        </script>
 
 	</body>
 
