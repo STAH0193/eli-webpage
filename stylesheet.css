@@ -106,7 +106,7 @@ h2 {
 
     .galleria{ 
       width: 80%; 
-      height: 400px; 
+      height: 600px; 
       background: transparent; 
       margin: auto;
       padding-top: 2em;
@@ -128,6 +128,11 @@ nav {
 img {
 	padding-top: 2em;
 }
+
+ 
+    .galleria {
+      height: 300px;
+    }
 
 
 /* iphone 6s  horizantal*/
