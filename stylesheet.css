@@ -106,11 +106,27 @@ h2 {
 
     .galleria{ 
       width: 80%; 
-      height: 600px; 
+      height: 400px; 
       background: transparent; 
       margin: auto;
       padding-top: 2em;
     }
+
+
+
+    .square {
+    background: #transparent;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+    .square2 {
+    background: #transparent;
+    width: 25vw;
+    height: 25vw;
+
+}
 
 /* iphone 6s  horizantal*/
 @media only screen and (max-width: 414px) {
@@ -129,10 +145,25 @@ img {
 	padding-top: 2em;
 }
 
- 
-    .galleria {
-      height: 300px;
-    }
+
+    .square {
+    background: #transparent;
+    width: 60vw;
+    height: 60vw;
+    font-size: 5vw;
+}
+
+
+  .square3 {
+    font-size: 3em;
+  }
+
+    .square4 {
+    font-size: 3.5em;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+
 
 
 /* iphone 6s  horizantal*/
@@ -157,8 +188,5 @@ img {
 	padding-top: 2em;
 }
  
-
-
-
 
 
